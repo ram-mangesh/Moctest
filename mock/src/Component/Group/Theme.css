@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap');
+
+/* ── LIGHT MODE (default) ─── Professional Color Scheme */
+:root {
+  /* Base & Surfaces */
+  --bg-base:        #f8fafc;
+  --bg-panel:       rgba(255, 255, 255, 0.98);
+  --bg-panel-hover: #ffffff;
+  --bg-card:        #ffffff;
+  --bg-card-hover:  #f1f5f9;
+  --bg-input:       #f8fafc;
+  --bg-overlay:     rgba(248, 250, 252, 0.95);
+  
+  /* Borders */
+  --border:         #e2e8f0;
+  --border-hover:   #cbd5e1;
+  --border-focus:   #3b82f6;
+  --border-input:   #e2e8f0;
+  
+  /* Text Colors - High Contrast */
+  --text-primary:   #0f172a;
+  --text-secondary: #475569;
+  --text-muted:     #64748b;
+  --text-light:     #94a3b8;
+  --text-link:      #2563eb;
+  
+  /* Primary Blue - Professional & Trustworthy */
+  --primary:        #2563eb;
+  --primary-light:  #3b82f6;
+  --primary-lighter:#93c5fd;
+  --primary-dark:   #1d4ed8;
+  --primary-bg:     #eff6ff;
+  
+  /* Secondary Teal - Calm & Professional */
+  --secondary:      #0d9488;
+  --secondary-light:#14b8a6;
+  --secondary-bg:   #f0fdfa;
+  
+  /* Accent Colors - Balanced & Modern */
+  --accent-violet:  #7c3aed;
+  --accent-violet-2:#a78bfa;
+  --accent-cyan:    #0891b2;
+  --accent-cyan-2:  #22d3ee;
+  --accent-amber:   #d97706;
+  --accent-amber-2: #fbbf24;
+  --accent-emerald: #059669;
+  --accent-emerald-2:#34d399;
+  --accent-rose:    #e11d48;
+  --accent-rose-2:  #fb7185;
+  
+  /* Status Colors */
+  --success:        #16a34a;
+  --success-light:  #dcfce7;
+  --warning:        #ca8a04;
+  --warning-light:  #fef9c3;
+  --error:          #dc2626;
+  --error-light:    #fee2e2;
+  --info:           #2563eb;
+  --info-light:     #dbeafe;
+  
+  /* Glow & Effects */
+  --glow-1: rgba(37, 99, 235, 0.08);
+  --glow-2: rgba(13, 148, 136, 0.06);
+  --glow-primary: rgba(37, 99, 235, 0.12);
+  --glow-secondary: rgba(13, 148, 136, 0.10);
+  
+  /* Shadows - Subtle & Professional */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.06);
+  --shadow-card-hover: 0 8px 30px rgba(0, 0, 0, 0.1);
+  
+  /* Grid & Patterns */
+  --grid-line: rgba(37, 99, 235, 0.04);
+  
+  /* Toggle & Controls */
+  --toggle-bg: #f1f5f9;
+  --toggle-active: #2563eb;
+}
+
+/* ── DARK MODE (optional) ─── Professional Dark Theme */
+[data-theme="dark"] {
+  /* Base & Surfaces - Deep Slate */
+  --bg-base:        #0f172a;
+  --bg-panel:       rgba(30, 41, 59, 0.98);
+  --bg-panel-hover: rgba(51, 65, 85, 0.98);
+  --bg-card:        rgba(30, 41, 59, 0.95);
+  --bg-card-hover:  rgba(51, 65, 85, 0.95);
+  --bg-input:       rgba(30, 41, 59, 0.95);
+  --bg-overlay:     rgba(15, 23, 42, 0.95);
+  
+  /* Borders - Subtle Dark */
+  --border:         #334155;
+  --border-hover:   #475569;
+  --border-focus:   #3b82f6;
+  --border-input:   #475569;
+  
+  /* Text Colors - High Contrast on Dark */
+  --text-primary:   #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted:     #94a3b8;
+  --text-light:     #64748b;
+  --text-link:      #60a5fa;
+  
+  /* Primary Blue - Bright on Dark */
+  --primary:        #3b82f6;
+  --primary-light:  #60a5fa;
+  --primary-lighter:#93c5fd;
+  --primary-dark:   #2563eb;
+  --primary-bg:     rgba(59, 130, 246, 0.15);
+  
+  /* Secondary Teal - Vibrant on Dark */
+  --secondary:      #14b8a6;
+  --secondary-light:#2dd4bf;
+  --secondary-bg:   rgba(20, 184, 166, 0.15);
+  
+  /* Accent Colors - Enhanced for Dark */
+  --accent-violet:  #8b5cf6;
+  --accent-violet-2:#a78bfa;
+  --accent-cyan:    #06b6d4;
+  --accent-cyan-2:  #22d3ee;
+  --accent-amber:   #f59e0b;
+  --accent-amber-2: #fbbf24;
+  --accent-emerald: #10b981;
+  --accent-emerald-2:#34d399;
+  --accent-rose:    #f43f5e;
+  --accent-rose-2:  #fb7185;
+  
+  /* Status Colors - Enhanced for Dark */
+  --success:        #22c55e;
+  --success-light:  rgba(34, 197, 94, 0.15);
+  --warning:        #eab308;
+  --warning-light:  rgba(234, 179, 8, 0.15);
+  --error:          #ef4444;
+  --error-light:    rgba(239, 68, 68, 0.15);
+  --info:           #3b82f6;
+  --info-light:     rgba(59, 130, 246, 0.15);
+  
+  /* Glow & Effects - Enhanced */
+  --glow-1: rgba(59, 130, 246, 0.12);
+  --glow-2: rgba(20, 184, 166, 0.10);
+  --glow-primary: rgba(59, 130, 246, 0.18);
+  --glow-secondary: rgba(20, 184, 166, 0.15);
+  
+  /* Shadows - Deep & Rich */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.25), 0 2px 4px -1px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --shadow-card-hover: 0 8px 30px rgba(0, 0, 0, 0.4);
+  
+  /* Grid & Patterns */
+  --grid-line: rgba(59, 130, 246, 0.06);
+  
+  /* Toggle & Controls */
+  --toggle-bg: #1e293b;
+  --toggle-active: #3b82f6;
+}
+  --shadow-glow-c: rgba(20,184,166,0.20);
+  --toggle-bg: rgba(30,41,59,0.9);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Exo 2', sans-serif;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  transition: background 0.35s, color 0.35s;
+}
+
+/* ── SHARED TOGGLE ── */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--toggle-bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 14px 6px 10px;
+  cursor: pointer;
+  transition: all 0.25s;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  user-select: none;
+}
+.theme-toggle:hover { border-color: var(--accent-violet); background: var(--bg-panel-hover); }
+.theme-toggle .tt-icon { font-size: 1rem; line-height: 1; transition: transform 0.4s; }
+.theme-toggle:hover .tt-icon { transform: rotate(22deg) scale(1.2); }
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--accent-violet); border-radius: 3px; }

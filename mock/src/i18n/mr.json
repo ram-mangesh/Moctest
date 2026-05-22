@@ -1,0 +1,207 @@
+{
+  "common": {
+    "send": "पाठवा",
+    "back": "मागे",
+    "student": "विद्यार्थी"
+  },
+
+  "navbar": {
+    "search": "परीक्षा शोधा...",
+    "logout": "लॉगआउट",
+    "toggleTheme": "थीम बदला"
+  },
+
+  "sidebar": {
+    "dashboard": "डॅशबोर्ड",
+    "allExams": "सर्व परीक्षा",
+    "progress": "प्रगती",
+    "history": "चाचणी इतिहास",
+    "groupExams": "गट परीक्षा"
+  },
+
+  "mock": {
+    "pencil": "पेन्सिल",
+    "eraser": "खोडरबर",
+    "clear": "साफ करा",
+    "previous": "मागील",
+    "next": "पुढील",
+    "markReview": "पुनरावलोकनासाठी चिन्हांकित करा",
+    "submit": "सबमिट",
+    "questions": "प्रश्न",
+    "strategyRisk": "रणनीती धोका"
+  },
+
+  "progress": {
+    "title": "तुमची प्रगती 📊",
+    "attempts": "प्रयत्न",
+    "averageScore": "सरासरी गुण",
+    "bestScore": "सर्वोत्तम गुण",
+    "scoreOverTime": "वेळेनुसार गुण",
+    "scoreDistribution": "गुण वितरण",
+    "topicWise": "विषयानुसार कामगिरी",
+    "readiness": "तयारी"
+  },
+
+  "group": {
+    "loadingLobby": "लॉबी लोड होत आहे...",
+    "lobbyTitle": "गट लॉबी",
+    "participantsJoined": "सहभागी:",
+    "inviteCodeLabel": "आमंत्रण कोड:",
+    "startExam": "परीक्षा सुरू करा",
+    "waitingForHost": "होस्टची वाट पाहत आहे...",
+    "onlyHost": "फक्त होस्ट परीक्षा सुरू करू शकतो"
+  },
+
+  "leaderboard": {
+    "title": "लीडरबोर्ड",
+    "rank": "क्रमांक",
+    "user": "वापरकर्ता",
+    "correctAttempted": "बरोबर / प्रयत्न",
+    "time": "वेळ"
+  },
+
+  "ai": {
+    "title": "मॉक AI सहाय्यक",
+    "thinking": "AI विचार करत आहे...",
+    "placeholder": "परीक्षा तयारीबद्दल विचारा...",
+    "unavailable": "AI सध्या उपलब्ध नाही",
+    "iconText": "नमस्कार! मी मॉक AI सहाय्यक आहे 🤖",
+    "welcomeFirst": "👋 नमस्कार {{name}}! मॉक AI सहाय्यकात आपले स्वागत आहे.",
+    "welcomeBack": "👋 पुन्हा स्वागत आहे {{name}}!"
+  },
+
+  "result": {
+    "title": "चाचणी निकाल",
+    "noResult": "निकाल सापडला नाही",
+    "total": "एकूण",
+    "correct": "बरोबर",
+    "wrong": "चूक",
+    "score": "गुण",
+    "pass": "उत्तीर्ण 🎉",
+    "needsImprovement": "सुधारणा आवश्यक",
+    "weakTopics": "कमकुवत विषय",
+    "noWeakTopics": "कमकुवत विषय नाही 🎯",
+    "aiRecommendation": "AI सूचना",
+    "aiGenerating": "AI सूचना तयार करत आहे...",
+    "retry": "पुन्हा प्रयत्न करा"
+  },
+
+  "history": {
+    "title": "चाचणी इतिहास",
+    "date": "तारीख",
+    "exam": "परीक्षा",
+    "subject": "विषय",
+    "topic": "घटक",
+    "total": "एकूण",
+    "correct": "बरोबर",
+    "wrong": "चूक",
+    "score": "गुण %",
+    "empty": "अजून कोणतेही प्रयत्न नाहीत."
+  },
+
+  "charts": {
+    "noData": "अजून कोणताही डेटा नाही",
+    "score": "गुण",
+    "avgScore": "सरासरी गुण",
+    "attempts": "प्रयत्न",
+    "noTopicData": "विषय डेटा उपलब्ध नाही",
+    "noDistribution": "गुण वितरण उपलब्ध नाही",
+    "excellent": "उत्कृष्ट (80+)",
+    "good": "चांगले (60–79)",
+    "needsImprovement": "सुधारणा आवश्यक (<60)"
+  },
+
+  "cheat": {
+    "tabSwitch": "टॅब बदल आढळला"
+  },
+
+  "proctor": {
+    "cameraDenied": "कॅमेरा परवानगी नाकारली",
+    "modelLoadFail": "फेस मॉडेल लोड होऊ शकले नाही",
+    "noFace": "चेहरा सापडला नाही",
+    "multipleFaces": "अनेक चेहरे आढळले",
+    "faceShifted": "चेहरा हललेला आढळला"
+  },
+  "landing": {
+    "title": "Smart Exam Preparation",
+    "subtitle": "Practice smarter, analyze deeper, and crack your exams",
+    "features": [
+      "AI-powered mock tests",
+      "Real-time performance analytics",
+      "Group exams with live leaderboard",
+      "Anti-cheating proctoring",
+      "Multi-language support"
+    ]
+  },
+
+  "landing": {
+    "brandPrimary": "एग्झाम",
+    "brandSecondary": "प्रेप",
+
+    "login": "लॉगिन",
+    "register": "नोंदणी",
+    "startPractice": "सराव सुरू करा",
+    "footer": "© 2026 ExamPrep. सर्व हक्क राखीव.",
+
+    "slide1": {
+      "title": "स्मार्ट तयारी",
+      "highlight": "AI आधारित शिक्षण",
+      "desc": "अचूकता आणि वेग वाढवण्यासाठी बुद्धिमान मॉक टेस्ट.",
+      "features": [
+        "अ‍ॅडॅप्टिव मॉक टेस्ट",
+        "AI आधारित सूचना",
+        "सविस्तर कामगिरी विश्लेषण",
+        "तत्काळ निकाल"
+      ]
+    },
+
+    "slide2": {
+      "title": "एकत्र स्पर्धा",
+      "highlight": "गट परीक्षा",
+      "desc": "मित्रांसोबत लाईव्ह गट परीक्षेत सहभागी व्हा.",
+      "features": [
+        "कोडद्वारे आमंत्रण",
+        "लाईव्ह लीडरबोर्ड",
+        "निष्पक्ष परीक्षा",
+        "सर्वांसाठी ऑटो स्टार्ट"
+      ]
+    },
+
+    "slide3": {
+      "title": "लक्ष केंद्रित ठेवा",
+      "highlight": "प्रॉक्टर्ड परीक्षा",
+      "desc": "शिस्त आणि पारदर्शकतेसाठी प्रगत निरीक्षण.",
+      "features": [
+        "टॅब बदल ओळख",
+        "चेहरा ओळख",
+        "अनेक चेहरे चेतावणी",
+        "उल्लंघनावर ऑटो सबमिट"
+      ]
+    }
+  },
+  
+  "mock": {
+    "warning": "इशारा",
+    "autosubmit": "अनेक उल्लंघन आढळले. चाचणी आपोआप सबमिट केली.",
+    "genericViolation": "उल्लंघन आढळले",
+    "violations": "उल्लंघन"
+  },
+  "antiCheat": {
+    "tabSwitch": "टॅब बदल आढळला"
+  },
+  "proctor": {
+    "cameraDenied": "कॅमेरा परवानगी नाकारली आहे किंवा कॅमेरा वापरात आहे",
+    "modelLoadFail": "फेस डिटेक्शन मॉडेल लोड करण्यात अयशस्वी",
+    "noFace": "चेहरा आढळला नाही",
+    "multipleFaces": "एकापेक्षा जास्त चेहरे आढळले",
+    "faceShifted": "चेहरा हलला"
+  },
+  "common": {
+    "loading": "लोड होत आहे..."
+  }
+}
+  
+
+
+  
+  

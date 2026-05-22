@@ -1,0 +1,225 @@
+{
+  "common": {
+    "send": "Send",
+    "back": "Back",
+    "student": "Student"
+  },
+
+  "auth": {
+    "loginTitle": "Login",
+    "registerTitle": "Register",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "phone": "Phone",
+    "noAccount": "Don’t have an account?",
+    "haveAccount": "Already have an account?"
+  },
+
+  "navbar": {
+    "search": "Search exams...",
+    "logout": "Logout",
+    "toggleTheme": "Toggle theme"
+  },
+
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "allExams": "All Exams",
+    "progress": "Progress",
+    "history": "Test History",
+    "groupExams": "Group Exams",
+    "realExams" : "Real Exams",
+    "Ranking": "Ranking"
+  },
+
+  "exam": {
+    "subjects": "Subjects",
+    "topics": "Topics",
+    "start": "Start"
+  },
+
+  "cards": {
+    "subjectsCount": "{{count}} Subjects",
+    "topicsCount": "{{count}} Topics",
+    "questionsCount": "{{count}} Questions"
+  },
+
+  "mock": {
+    "pencil": "Pencil",
+    "eraser": "Eraser",
+    "clear": "Clear",
+    "previous": "Previous",
+    "next": "Next",
+    "markReview": "Mark for Review",
+    "submit": "Submit",
+    "questions": "Questions",
+    "strategyRisk": "Strategy Risk"
+  },
+
+  "progress": {
+    "title": "Your Progress 📊",
+    "attempts": "Attempts",
+    "averageScore": "Average Score",
+    "bestScore": "Best Score",
+    "scoreOverTime": "Score Over Time",
+    "scoreDistribution": "Score Distribution",
+    "topicWise": "Topic-wise Performance",
+    "readiness": "Readiness"
+  },
+
+  "group": {
+    "loadingLobby": "Loading lobby...",
+    "lobbyTitle": "Group Lobby",
+    "participantsJoined": "Participants joined:",
+    "inviteCodeLabel": "Invite Code:",
+    "startExam": "Start Exam",
+    "waitingForHost": "Waiting for host to start the exam…",
+    "onlyHost": "Only host can start the exam",
+    "myGroups": "My Groups",
+    "inviteCode": "Invite Code"
+
+  },
+
+  "leaderboard": {
+    "title": "Leaderboard",
+    "rank": "Rank",
+    "user": "User",
+    "correctAttempted": "Correct / Attempted",
+    "time": "Time"
+  },
+
+  "ai": {
+    "title": "Mock AI Assistant",
+    "thinking": "AI thinking...",
+    "placeholder": "Ask about exam preparation...",
+    "unavailable": "AI is unavailable right now.",
+    "iconText": "Hey! I am Mock AI Assistant 🤖",
+    "welcomeFirst": "👋 Hi {{name}}! Welcome to Mock AI Assistant.\nI’ll help you prepare smartly, improve weak subjects, and crack your exam.",
+    "welcomeBack": "👋 Welcome back {{name}}! How may I help you today?"
+  },
+
+  "result": {
+    "title": "Test Result",
+    "noResult": "No result found",
+    "total": "Total",
+    "correct": "Correct",
+    "wrong": "Wrong",
+    "score": "Score",
+    "pass": "PASS 🎉",
+    "needsImprovement": "NEEDS IMPROVEMENT",
+    "weakTopics": "Weak Topics",
+    "noWeakTopics": "No weak topics 🎯",
+    "aiRecommendation": "AI Recommendation",
+    "aiGenerating": "AI is generating recommendations...",
+    "retry": "Re-attempt Test"
+  },
+
+  "history": {
+    "title": "Test History 🕒",
+    "date": "Date",
+    "exam": "Exam",
+    "subject": "Subject",
+    "topic": "Topic",
+    "total": "Total",
+    "correct": "Correct",
+    "wrong": "Wrong",
+    "score": "Score %",
+    "empty": "No test attempts yet."
+  },
+
+  "charts": {
+    "noData": "No attempts yet. Take a test to see progress 📈",
+    "score": "Score",
+    "avgScore": "Avg Score",
+    "attempts": "attempts",
+    "noTopicData": "No topic data available",
+    "noDistribution": "No data available for score distribution",
+    "excellent": "Excellent (80+)",
+    "good": "Good (60–79)",
+    "needsImprovement": "Needs Improvement (<60)"
+  },
+
+  "cheat": {
+    "tabSwitch": "Tab switch detected"
+  },
+
+  "proctor": {
+    "cameraDenied": "Camera permission denied or camera busy",
+    "modelLoadFail": "Face detection models failed to load",
+    "noFace": "No face detected",
+    "multipleFaces": "Multiple faces detected",
+    "faceShifted": "Face shifted"
+  },
+
+  
+  "landing": {
+    "brandPrimary": "Exam",
+    "brandSecondary": "Prep",
+
+    "login": "Login",
+    "register": "Register",
+    "startPractice": "Start Practice",
+    "footer": "© 2026 ExamPrep. All rights reserved.",
+
+    "slide1": {
+      "title": "Prepare Smarter",
+      "highlight": "AI Powered Learning",
+      "desc": "Practice with intelligent mock tests designed to improve accuracy and speed.",
+      "features": [
+        "Adaptive mock tests",
+        "AI-based recommendations",
+        "Detailed performance analytics",
+        "Instant result insights"
+      ]
+    },
+
+    "slide2": {
+      "title": "Compete Together",
+      "highlight": "Group Exams",
+      "desc": "Challenge friends in real-time group exams with live leaderboards.",
+      "features": [
+        "Invite via code",
+        "Live leaderboard",
+        "Fair exam environment",
+        "Auto start for all users"
+      ]
+    },
+
+    "slide3": {
+      "title": "Stay Focused",
+      "highlight": "Proctored Exams",
+      "desc": "Advanced monitoring ensures discipline and fairness during exams.",
+      "features": [
+        "Tab switch detection",
+        "Face detection",
+        "Multiple face alerts",
+        "Auto submit on violations"
+      ]
+    }
+  },
+  
+
+  "mock": {
+    "warning": "Warning",
+    "autosubmit": "Multiple violations detected. Test auto-submitted.",
+    "genericViolation": "Violation detected",
+    "violations": "Violations"
+  },
+  "antiCheat": {
+    "tabSwitch": "Tab switch detected"
+  },
+  "proctor": {
+    "cameraDenied": "Camera permission denied or camera is busy",
+    "modelLoadFail": "Failed to load face detection models",
+    "noFace": "No face detected",
+    "multipleFaces": "Multiple faces detected",
+    "faceShifted": "Face shifted"
+  },
+  "common": {
+    "loading": "Loading...",
+    "register": "Register",
+    "login": "Login"
+  }
+
+
+}
